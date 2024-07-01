@@ -36,3 +36,166 @@
     transform: rotate(360deg);
   }
 }
+@font-face {
+  font-family: "MyHandwriting";
+  src: url(./Myhandwriting.ttf);
+  /* font-family: "MyHandwriting"; */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.questions {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.mainQuestion {
+  width: 301px;
+  height: 219px;
+  background-color: white;
+  border: 3px solid #d62900;
+  border-radius: 24px;
+  box-shadow: 0px 5px 10px 0px rgba(120, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainQuestion p {
+  width: 250px;
+}
+
+.option {
+  width: 301px;
+  height: 38px;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.option:hover {
+  opacity: 80%;
+}
+
+.option:nth-child(2) {
+  background-color: #ff9b55;
+  box-shadow: 0px 5px 10px 0px rgba(240, 152, 80, 0.5);
+}
+.option:nth-child(3) {
+  background-color: #d461a6;
+  box-shadow: 0px 5px 10px 0px rgba(244, 132, 250, 0.5);
+}
+.option:nth-child(4) {
+  background-color: #a50065;
+  box-shadow: 0px 5px 10px 0px rgba(157, 5, 165, 0.5);
+}
+
+.hidden {
+  display: none;
+}
+
+.notepad {
+  /* margin-top: 100px; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.notepad {
+  max-width: 600px;
+  /* width: 300px; */
+  /* padding-top: 300px; */
+  box-shadow: 10px 10px 40px rgba(black, 0.15);
+  border-radius: 0 0 10px 10px;
+  overflow: hidden;
+  /* padding: 10%; */
+}
+
+.top {
+  width: 100%;
+  height: 50px;
+  background: #333;
+  border-radius: 5px 5px 0 0;
+}
+
+.paper {
+  /* width: 100%;
+  height: 100%;
+  min-height: 60vh; */
+  padding: 35px 20px;
+  background: repeating-linear-gradient(
+    #f1ede9,
+    #f1ede9 31px,
+    #94acd4 31px,
+    #94acd4 32px
+  );
+  font-family: "MyHandwriting", "Shadows Into Light", cursive;
+  line-height: 32px;
+  outline: 0;
+  font-size: 22px;
+}
+
+#context {
+  width: 300px;
+  text-align: center;
+  display: block;
+  margin: 20px auto;
+  /* text-overflow: ellipsis;
+  word-wrap: break-word; */
+  /* color: white; */
+}
+
+.pre-reading {
+  /* color: white; */
+  padding: 20px;
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+iframe {
+  /* margin-top: 20px; */
+}
+
+.letter {
+  background: rgb(214, 41, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(214, 41, 0, 1) 0%,
+    rgba(255, 155, 85, 1) 27%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(212, 97, 166, 1) 72%,
+    rgba(165, 0, 98, 1) 100%
+  );
+}
+
+/* @keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+} */
