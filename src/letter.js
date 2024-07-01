@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import AudioPlayer from "./audio";
 import ReactAudioPlayer from "react-audio-player";
 
 export default function Letter({ hide }) {
