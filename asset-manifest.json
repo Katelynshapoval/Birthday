@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Birthday/static/css/main.ee64ac8a.css",
+    "main.js": "/Birthday/static/js/main.cc4705fa.js",
+    "static/media/Myhandwriting.ttf": "/Birthday/static/media/Myhandwriting.700d7ffafd6160146055.ttf",
+    "index.html": "/Birthday/index.html",
+    "main.ee64ac8a.css.map": "/Birthday/static/css/main.ee64ac8a.css.map",
+    "main.cc4705fa.js.map": "/Birthday/static/js/main.cc4705fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee64ac8a.css",
+    "static/js/main.cc4705fa.js"
+  ]
+}
